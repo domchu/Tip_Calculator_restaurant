@@ -68,5 +68,13 @@ h2 {
   background-color: purple;
   width: 150px;
   height: 45px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.btn:hover {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -55,17 +55,10 @@ h2 {
   background-color: purple;
   width: 150px;
   height: 45px;
+  transition: 1s;
 }
-// @media screen and (min-width: 500px) {
-//   .fullname,
-//   .tip-percent,
-//   .name,
-//   .bill-amount {
-//     margin: 30px 0;
-//     height: 45px;
-//     width: 500px;
-//     border-radius: 5px;
-//     border: 1px solid transparent;
-//     padding: 12px;
-//   }
-// }
+.btn:hover {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+}
