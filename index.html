@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip CALCULATOR</title>
+    <link
+      rel="stylesheet"
+      href="fontawesome5/fontawesome-free-5.15.3-web/css/all.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-container">
+      <section>
+        <div class="header">
+          <div class="text">
+            <h3>Front End Restaurant</h3>
+          </div>
+          <div class="icon">
+            <i class="fas fa-bars bars"></i>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2>Tip Calculator</h2>
+        <div class="input-text">
+          <input
+            type="text"
+            class="fullname"
+            placeholder="Enter FullName"
+          /><br />
+          <input
+            type="text"
+            class="bill-amount"
+            placeholder="Enter Bill Amount"
+          /><br />
+          <div class="name-container">
+            <select class="name">
+              <option value="">---Select Waiter/Waitress---</option>
+              <option value="Micheal">Micheal</option>
+              <option value="Thompson">Thompson</option>
+              <option value="Jane">Jane</option>
+              <option value="Amaka">Amaka</option>
+              <option value="Dominic">Dominic</option>
+            </select>
+          </div>
+          <div class="percent-container">
+            <select class="tip-percent">
+              <option value="">---Select Tip Percent---</option>
+              <option value="0.1">10%</option>
+              <option value="0.25">25%</option>
+              <option value="0.3">30%</option>
+              <option value="0.4">40%</option>
+              <option value="0.5">50%</option></select
+            ><br />
+            <input type="button" class="btn" value="Calculate" />
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
